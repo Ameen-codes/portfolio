@@ -40,6 +40,7 @@ nav ul li a{
 
 nav ul li a:hover{
     color: #e46714;
+    text-decoration: underline;
 }
 
 
@@ -287,6 +288,8 @@ footer img{
 }
 
 footer .end p{
+    white-space: nowrap;
+    padding: 30px 0 20px 350px;
     text-align: center;
     font-size: 20px;
     font-family: cursive,sans-serif;
@@ -301,13 +304,11 @@ footer .end p{
  
 .socials .top{
     position: fixed;
-    bottom: 30px;
+    bottom: 110px;
     right: 30px;
 }
 
-.services .serv{
-    position: sticky;
-}
+
 
 
 
@@ -360,7 +361,7 @@ footer .end p{
    }
    
    .services div{
-       margin: 30px 150px;
+       margin: 30px 180px;
    }
    
    .services div:hover{
