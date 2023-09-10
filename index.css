@@ -313,7 +313,7 @@ footer .end p{
 
 /*media query section,so exhausting*/
 
-@media(max-width:320px){
+@media(max-width:460px){
     
     header{
        gap:200px;
