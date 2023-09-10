@@ -308,3 +308,109 @@ footer .end p{
 .services .serv{
     position: sticky;
 }
+
+
+
+/*media query section,so exhausting*/
+
+@media(max-width:320px){
+    
+    header{
+       gap:200px;
+       padding: 10px 350px;
+   }
+   
+   nav ul{
+       gap:30px
+   }
+   
+   h1{
+       font-size: 25px;
+       white-space: nowrap;
+   }
+   
+   .banner{
+       padding: 100px 50px ;
+       gap: 50px;
+       
+   }
+   .banner p{
+   
+       font-size: 25px;
+       font-family: 'Trebuchet MS';
+       font-weight: bold;
+       line-height: 40px;
+   }
+   
+   .banner .image img{
+      
+       width:350px;
+       height: 400px;
+       border: 7px solid #e46714;
+       
+   }
+   
+   .services{
+       flex: 1;
+       width: 700px; /* Set the desired width for each box */
+       height: 500px; /* Set the desired height for each box */
+       overflow: auto; /* Add scrollbars when content exceeds the dimensions */
+       border: 1px solid #ccc; /* Optional: Add a border for styling */
+       margin: 100px 40px; /* Optional: Add spacing between boxes */
+   }
+   
+   .services div{
+       margin: 30px 150px;
+   }
+   
+   .services div:hover{
+       scale: 1.25;
+   }
+   
+   .aboutme{
+   
+       align-items: center;
+       justify-content: space-evenly;
+       padding-left: 350px;
+   }
+   
+   .aboutme img{
+       margin-right: 20px;
+   }
+   
+   .info button{
+       width: 250px;
+       height: 70px;
+       border-radius: 50px;
+       font-size: 30px;
+   
+   }
+   
+   
+   
+   .testimonies{
+       font-size: 20px;
+       display: flex;
+       overflow: auto;
+       width: 800px;
+       height: 270px;
+       margin-bottom: 100px;
+   }
+   
+   footer h1{
+      margin-left: 300px;
+   }
+   
+   .socials nav ul{
+       padding-left: 350px;
+   }
+   
+   .socials nav ul li{
+       margin-right: 50px;
+   }
+   
+   
+   
+   
+   
+   }
